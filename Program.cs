@@ -40,33 +40,33 @@ using System.Text;
          Tarea tarea= new Tarea();
               tarea.IDtarea = i+ 1;
               tarea.Descripcion=auxTarea;
-      
 
-
-    if (auxDuracion<10 || auxDuracion>100)
-    {
-        
-
-            do {
-      Console.WriteLine("Ingrese la duracion nuevamente (entre 10 y 100)");
+          if (auxDuracion<10 || auxDuracion>100)
+          {
+             do
+            {
+      Console.WriteLine("Ingrese la duracion nuevamente (entre 10/100)");
        auxDuracion=Convert.ToInt32(Console.ReadLine());
+
+
               
             } while(auxDuracion<10 || auxDuracion>100);
+          
+          }
 
-    }
-
-       
-           
+         
+         
   if(auxDuracion>=10 || auxDuracion <=100)
          {
            
            tarea.Duracion= auxDuracion;
           }
+
          
               listaDeTareasPendientes.Add(tarea);
        }
 
-      
+        
        do
        {
         
@@ -84,22 +84,26 @@ using System.Text;
            {
             case 1:
     
-            Console.WriteLine("----Tareas pendientes-----");
-            Funciones.mostrarTareas(listaDeTareasPendientes);
+      Console.WriteLine("----Tareas pendientes-----");
+      Funciones.mostrarTareas(listaDeTareasPendientes);
+       
+
 
             break;
-            case 2:
-    
+
+
+          case 2:
+
             Console.WriteLine("----Tareas realizadas-----");
-            Funciones.mostrarTareas(listaDeTareasR);
+        Funciones.mostrarTareas(listaDeTareasR);
 
 
             break;
 
-           case 3:
+         case 3:
 
-            Funciones.MoverTarea(listaDeTareasPendientes,listaDeTareasR);
-            break;
+    Funciones.MoverTarea(listaDeTareasPendientes,listaDeTareasR);
+         break;
 
 
 
@@ -128,8 +132,9 @@ using System.Text;
                   
               
             Console.WriteLine("Id de la tarea:" +aux.IDtarea);
-            Console.WriteLine("Descripcion: " + aux.Descripcion);
-            Console.WriteLine("Duracion: " + aux.Duracion);
+         
+        Console.WriteLine("Descripcion: " + aux.Descripcion);
+        Console.WriteLine("Duracion: " + aux.Duracion);
             break;
             default:
             break;
@@ -141,5 +146,4 @@ using System.Text;
        } while (opcion !=0);
 
 
-   
 Funciones.Sumario(listaDeTareasR);

@@ -102,7 +102,7 @@ using System.Collections.Generic;
                 BuscarTarea=tarea;
             }else
             {
-              // Console.WriteLine("busca otra lista");
+              Console.WriteLine("busca otra lista");
             }
         }
 
@@ -151,22 +151,39 @@ using System.Collections.Generic;
               listaDeTareasPendientes.Remove(tareaRemover);
              }
 
+
+
+
+
+
+
       }
 
 
 
-        public static void Sumario(List<Tarea>  listaDeTareasRealizadas) 
+
+
+          public static void Sumario(List<Tarea>  listaDeTareasRealizadas) 
     {
-        int HorasTotal = 0; 
+
+
+      
+        int horasTotal = 0; 
         StreamWriter file = new StreamWriter("sumario.txt"); 
         foreach (Tarea tarea in  listaDeTareasRealizadas) 
         {
-            HorasTotal += tarea.Duracion; 
+            horasTotal += tarea.Duracion;
         }
-        file.WriteLine($"Sumario: {HorasTotal}");
+        file.WriteLine($"Sumario: {horasTotal}"); 
         file.Close(); 
     }
 
- }
+
+
+
+     }
+
+
+
 
   }

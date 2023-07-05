@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "tp8/1.0.0": {
+      "practico8/1.0.0": {
         "runtime": {
-          "tp8.dll": {}
+          "practico8.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "tp8/1.0.0": {
+    "practico8/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

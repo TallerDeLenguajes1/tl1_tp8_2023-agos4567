@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("tp8")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("practico8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("tp8")]
-[assembly: System.Reflection.AssemblyTitleAttribute("tp8")]
+[assembly: System.Reflection.AssemblyProductAttribute("practico8")]
+[assembly: System.Reflection.AssemblyTitleAttribute("practico8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
