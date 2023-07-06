@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8.csproj": {}
+    "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8\\practico8.csproj": {}
   },
   "projects": {
-    "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8.csproj": {
+    "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8\\practico8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8.csproj",
+        "projectUniqueName": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8\\practico8.csproj",
         "projectName": "practico8",
-        "projectPath": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8.csproj",
+        "projectPath": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8\\practico8.csproj",
         "packagesPath": "C:\\Users\\ROG BY NG\\.nuget\\packages\\",
-        "outputPath": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\obj\\",
+        "outputPath": "C:\\Repogit\\tp8\\tl1_tp8_2023-agos4567\\practico8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ROG BY NG\\AppData\\Roaming\\NuGet\\NuGet.Config"
