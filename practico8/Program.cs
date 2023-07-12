@@ -12,7 +12,7 @@ using System.Text;
 
   Random random = new Random();
 
-  int cantPend= random.Next(2,4);
+  int cantPend= random.Next(1,4);
 
 // bool condicion =false;
   List<Tarea> listaDeTareasPendientes = new List<Tarea>();
